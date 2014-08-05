@@ -435,8 +435,8 @@ th {
 }
 @font-face {
   font-family: 'Glyphicons Halflings';
-  src: url("/example/bower_components/bootstrap/fonts/glyphicons-halflings-regular.eot");
-  src: url("/example/bower_components/bootstrap/fonts/glyphicons-halflings-regular.eot?#iefix") format("embedded-opentype"), url("/example/bower_components/bootstrap/fonts/glyphicons-halflings-regular.woff") format("woff"), url("/example/bower_components/bootstrap/fonts/glyphicons-halflings-regular.ttf") format("truetype"), url("/example/bower_components/bootstrap/fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular") format("svg");
+  src: url("/bootstrap-admin/bower_components/bootstrap/fonts/glyphicons-halflings-regular.eot");
+  src: url("/bootstrap-admin/bower_components/bootstrap/fonts/glyphicons-halflings-regular.eot?#iefix") format("embedded-opentype"), url("/bootstrap-admin/bower_components/bootstrap/fonts/glyphicons-halflings-regular.woff") format("woff"), url("/bootstrap-admin/bower_components/bootstrap/fonts/glyphicons-halflings-regular.ttf") format("truetype"), url("/bootstrap-admin/bower_components/bootstrap/fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular") format("svg");
 }
 
 /* line 25, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.2.0.1/assets/stylesheets/bootstrap/_glyphicons.scss */
@@ -8111,8 +8111,8 @@ button.close {
  * -------------------------- */
 @font-face {
   font-family: 'FontAwesome';
-  src: url('fonts/fontawesome-webfont.eot?v=4.1.0');
-  src: url('fonts/fontawesome-webfont.eot?#iefix&v=4.1.0') format("embedded-opentype"), url('fonts/fontawesome-webfont.woff?v=4.1.0') format("woff"), url('fonts/fontawesome-webfont.ttf?v=4.1.0') format("truetype"), url('fonts/fontawesome-webfont.svg?v=4.1.0#fontawesomeregular') format("svg");
+  src: url('/bootstrap-admin/fonts/fontawesome-webfont.eot?v=4.1.0');
+  src: url('/bootstrap-admin/fonts/fontawesome-webfont.eot?#iefix&v=4.1.0') format("embedded-opentype"), url('/bootstrap-admin/fonts/fontawesome-webfont.woff?v=4.1.0') format("woff"), url('/bootstrap-admin/fonts/fontawesome-webfont.ttf?v=4.1.0') format("truetype"), url('/bootstrap-admin/fonts/fontawesome-webfont.svg?v=4.1.0#fontawesomeregular') format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -10637,8 +10637,8 @@ body {
 
 @font-face {
   font-family: 'FontAwesome';
-  src: url("/example/fonts/fontawesome-webfont.eot?v=4.1.0");
-  src: url("/example/fonts/fontawesome-webfont.eot?#iefix&v=4.1.0") format("embedded-opentype"), url("/example/fonts/fontawesome-webfont.woff?v=4.1.0") format("woff"), url("/example/fonts/fontawesome-webfont.ttf?v=4.1.0") format("truetype"), url("/example/fonts/fontawesome-webfont.svg?v=4.1.0#fontawesomeregular") format("svg");
+  src: url("/fonts/fontawesome-webfont.eot?v=4.1.0");
+  src: url("/fonts/fontawesome-webfont.eot?#iefix&v=4.1.0") format("embedded-opentype"), url("/fonts/fontawesome-webfont.woff?v=4.1.0") format("woff"), url("/fonts/fontawesome-webfont.ttf?v=4.1.0") format("truetype"), url("/fonts/fontawesome-webfont.svg?v=4.1.0#fontawesomeregular") format("svg");
   font-weight: normal;
   font-style: normal;
 }
