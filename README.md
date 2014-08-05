@@ -34,6 +34,8 @@ See `config.rb` to config the css build dir
 
 The default configuration build all into `example/css` folder.
 
+The sass variables are in `sass/bootstrap-admin/variables.scss`
+
 Build
 =====
 
@@ -45,3 +47,5 @@ Example
 =======
 
 An example template can be found into the `example` folder. Run `bower install` before to install dependecies.
+
+Example images are from [Nick Frost](https://www.iconfinder.com/iconsets/ballicons-free)
