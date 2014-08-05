@@ -1,0 +1,11 @@
+@import "compass/css3";
+
+.breadcrumb {
+    @include border-radius(0);
+
+    li {
+        a {
+            color: $breadcrumb-color;
+        }
+    }
+}

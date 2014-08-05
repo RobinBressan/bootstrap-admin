@@ -1,0 +1,121 @@
+@import "compass/css3";
+
+.navbar {
+    border-bottom: none;
+    .navbar-brand {
+        font-weight: 300;
+    }
+
+    li {
+        a {
+            font-weight: 300;
+
+            .badge {
+                position: absolute;
+                top: 5px;
+                right: 3px;
+                padding: 3px 5px;
+                font-size: 9px;
+                background-color: $navbar-badge-bg;
+                font-weight: 300;
+            }
+
+            &.nav-user {
+                position: relative;
+                padding-left: $navbar-height - 10px;
+                margin-left: 10px;
+                img {
+                    position: absolute;
+                    top: 10px;
+                    left: 5px;
+                    @extend .img-circle;
+                    height: $navbar-height - 20px;
+                }
+            }
+        }
+
+        &.dropdown.open, &.active {
+            a {
+                .badge {
+                    background-color: $navbar-link-active-badge-color;
+                    color: $navbar-link-active-badge-bg;
+                }
+            }
+        }
+    }
+
+    .dropdown-menu {
+        padding: 0;
+        @include border-radius(0);
+        @include box-shadow(none);
+
+        > li {
+            > a {
+                padding: 10px 20px;
+
+                 .glyphicon, .fa {
+                    margin-right: 10px;
+                    font-weight: 300;
+                }
+            }
+
+            border-bottom: 1px solid #ddd;
+
+            &:last-child {
+                border-bottom: none;
+            }
+
+            &.divider {
+                margin: 0;
+            }
+
+            &.dropdown-header {
+                background: $navbar-dropdown-header-bg;
+                text-align: center;
+            }
+
+            &.grey {
+                background-color: #eee;
+            }
+        }
+
+        .list-group {
+            margin-bottom: 0;
+
+            .list-group-item {
+                @include border-radius(0);
+                border: none;
+                padding-top: 5px;
+                padding-bottom: 5px;
+            }
+
+            &:last-child {
+                .list-group-item {
+                    border-bottom: none;
+                }
+            }
+        }
+
+        &.media-list {
+            .media {
+                margin-top: 0;
+                width: 320px;
+
+                .media-object {
+                    width: 15%;
+                }
+
+                .media-body {
+                    padding-left: 5px;
+                    p {
+                        white-space: nowrap;
+                        margin: 0;
+                        width: 100%;
+                        overflow: hidden;
+                        text-overflow: ellipsis;
+                    }
+                }
+            }
+        }
+    }
+}

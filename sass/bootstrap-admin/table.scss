@@ -1,0 +1,14 @@
+.table {
+    &.table-shadow {
+        border: none;
+
+        tr {
+            border: none;
+
+            td {
+                border: none;
+                vertical-align: middle;
+            }
+        }
+    }
+}

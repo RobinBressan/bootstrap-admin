@@ -1,0 +1,26 @@
+@import "bootstrap/variables";
+@import "font-awesome/variables";
+
+$icon-font-path: '/example/bower_components/bootstrap/fonts/';
+$fa-font-path: '/example/fonts/';
+
+$font-family-base: 'Open Sans',$font-family-sans-serif;
+
+$sidebar-bg: #3d3d3d;
+$sidebar-link-color: #d9d9d9;
+$sidebar-link-hover-bg: lighten($sidebar-bg, 5%);
+$sidebar-link-hover-color: $sidebar-link-color;
+$sidebar-link-active-bg: #d64635;
+$sidebar-link-active-color: #fff;
+$sidebar-collapse-width: $screen-sm-max;
+
+$navbar-inverse-brand-color: #ffffff;
+$navbar-inverse-link-color: #ffffff;
+$navbar-badge-bg: #d64635;
+$navbar-dropdown-header-bg: #eee;
+$navbar-inverse-link-active-bg: $sidebar-link-active-bg;
+$navbar-inverse-link-active-color: #fff;
+$navbar-link-active-badge-color: $navbar-inverse-link-active-color;
+$navbar-link-active-badge-bg: $navbar-inverse-link-active-bg;
+
+$breadcrumb-separator: '>';

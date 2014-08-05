@@ -1,0 +1,21 @@
+{
+  "name": "bootstrap-admin",
+  "version": "0.0.1",
+  "authors": [
+    "Robin Bressan <robin@buddey.net>"
+  ],
+  "description": "Bootstrap admin dashboard",
+  "keywords": [
+    "bootstrap",
+    "admin",
+    "dashboard"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

@@ -1,0 +1,32 @@
+@import "compass/css3";
+
+.panel {
+    @include border-radius(0);
+    @include box-shadow(none);
+
+    background: #fff;
+    border: 1px solid;
+    border-color: #eee;
+    margin-bottom: 20px;
+    padding: 5px 15px;
+
+    .panel-heading {
+        text-align: left;
+        border-bottom: 1px solid #eee;
+        border-radius: 0;
+        background-color: transparent;
+        padding: 10px 5px;
+        font-size: 18px;
+        .glyphicon {
+            margin-right: 10px;
+        }
+    }
+
+    .panel-body {
+        padding: 10px;
+    }
+
+    &.panel-box {
+
+    }
+}

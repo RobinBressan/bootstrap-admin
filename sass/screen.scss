@@ -1,0 +1,17 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+@import "compass/reset";
+
+@import "bootstrap-admin/variables";
+@import "bootstrap";
+@import "font-awesome";
+
+@import "bootstrap-admin/scaffolding";
+@import "bootstrap-admin/navbar";
+@import "bootstrap-admin/sidebar";
+@import "bootstrap-admin/breadcrumb";
+@import "bootstrap-admin/panel";
+@import "bootstrap-admin/table";
