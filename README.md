@@ -49,3 +49,8 @@ Example
 An example template can be found into the `example` folder. Run `bower install` before to install dependecies.
 
 Example images are from [Nick Frost](https://www.iconfinder.com/iconsets/ballicons-free)
+
+Contribute
+==========
+
+Contributions are welcomed. Just make a PR for it.
